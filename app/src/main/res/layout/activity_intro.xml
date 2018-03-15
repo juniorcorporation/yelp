@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scn_yp_intro"
+    tools:context="com.juniorcorporation.yelp.IntroActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="180dp"
+        android:layout_height="64dp"
+        android:layout_alignTop="@+id/btnnew"
+        android:layout_toStartOf="@+id/btnnew"
+        android:layout_x="12dp"
+        android:layout_y="496dp"
+        android:onClick="onLogin"
+        android:text="Log In"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <Button
+        android:id="@+id/btnnew"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_x="193dp"
+        android:layout_y="495dp"
+        android:onClick="onNew"
+        android:text="I'm New"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="499dp" />
+</RelativeLayout>
